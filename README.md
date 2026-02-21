@@ -19,7 +19,7 @@ PDFs → Chunks → Embeddings → ChromaDB → Query → Groq LLM → Answer
 | Document Chunking | LangChain `RecursiveCharacterTextSplitter` |
 | Embeddings | `all-MiniLM-L6-v2` (SentenceTransformers) |
 | Vector Store | ChromaDB |
-| LLM | Groq (`llama3-8b-8192`) via LangChain |
+| LLM | Groq (`openai/gpt-oss-20b`) |
 
 ---
 
@@ -42,7 +42,6 @@ Create a `.env` file inside the `notebook/` folder:
 ```
 GROQ_API_KEY=your_api_key_here
 ```
-Get a free key at [console.groq.com](https://console.groq.com)
 
 ---
 
