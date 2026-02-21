@@ -1,4 +1,4 @@
-# RAG Project
+# RAG-Pipeline-Educational-Docs
 
 A Retrieval-Augmented Generation (RAG) pipeline that lets you query your own PDF documents using semantic search and a Groq LLM.
 
